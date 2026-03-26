@@ -1,0 +1,9 @@
+def linearSearch(names, targetName):
+    for i in range(len(names)):
+        if names[i] == targetName:
+            return "Found"
+    return "Not Found"
+
+students = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
+print(linearSearch(students, "Charlie"))
+print(linearSearch(students, "Frank"))
