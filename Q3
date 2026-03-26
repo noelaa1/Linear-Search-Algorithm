@@ -1,0 +1,6 @@
+word = "school"
+
+if "a" in word:
+    print("Found!")
+else:
+    print("Not Found!")
